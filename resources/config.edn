@@ -1,0 +1,7 @@
+{:admin      "Vincent"
+ :age       "39"
+ :project   "project-name"
+ :user-map
+   { :GithubUser1 "JIRAUser1"
+     :GithubUser2 "JIRAUser2" }
+}
