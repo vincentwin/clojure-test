@@ -1,0 +1,79 @@
+
+2014-05-13 23:42:53 DEBUG AbstractConnection:42 - onIdleExpired 200134ms AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1 SCEP@4f558d62{l(/0:0:0:0:0:0:0:1%0:64096)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1}
+2014-05-13 23:42:53 DEBUG ChannelEndPoint:152 - oshut SCEP@4f558d62{l(/0:0:0:0:0:0:0:1%0:64096)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1}
+2014-05-13 23:42:55 DEBUG ChannelEndPoint:113 - ishut SCEP@4f558d62{l(/0:0:0:0:0:0:0:1%0:64096)<->r(/0:0:0:0:0:0:0:1%0:3000),d=true,open=true,ishut=false,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1}
+2014-05-13 23:42:55 DEBUG ChannelEndPoint:128 - java.net.SocketException: Socket is not connected
+2014-05-13 23:42:55 DEBUG ChannelEndPoint:204 - close SCEP@4f558d62{l(/0:0:0:0:0:0:0:1%0:64096)<->r(/0:0:0:0:0:0:0:1%0:3000),d=true,open=true,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=-3},r=1}
+2014-05-13 23:42:55 DEBUG HttpParser:277 - filled -1/0
+2014-05-13 23:42:55 DEBUG nio:846 - destroyEndPoint SCEP@4f558d62{l(null)<->r(/0:0:0:0:0:0:0:1%0:3000),d=true,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1}
+2014-05-13 23:42:55 DEBUG AbstractHttpConnection:664 - closed AsyncHttpConnection@79b5459e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=-3},r=1
+2014-05-13 23:51:07 DEBUG log:157 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2014-05-13 23:51:10 TRACE handler:272 - Starting App....
+2014-05-13 23:51:10 TRACE handler:272 - Loading configs..
+2014-05-13 23:51:10 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@46d8dc2e + SelectChannelConnector@0.0.0.0:3000 as connector
+2014-05-13 23:51:10 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@46d8dc2e + ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@1c2bd9d7 as handler
+2014-05-13 23:51:10 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@46d8dc2e + qtp2130206675{8<=0<=0/50,-1} as threadpool
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting org.eclipse.jetty.server.Server@46d8dc2e
+2014-05-13 23:51:10 INFO  Server:252 - jetty-7.6.1.v20120215
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@1c2bd9d7
+2014-05-13 23:51:10 DEBUG AbstractHandler:52 - starting ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@1c2bd9d7
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@1c2bd9d7
+2014-05-13 23:51:10 DEBUG AbstractHandler:52 - starting org.eclipse.jetty.server.Server@46d8dc2e
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting qtp2130206675{8<=0<=0/50,-1}
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED qtp2130206675{8<=7<=8/50,0}
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting SelectChannelConnector@0.0.0.0:3000
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting null/null
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:174 - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6dcadba6
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@6dcadba6
+2014-05-13 23:51:10 DEBUG nio:280 - Starting Thread[qtp2130206675-11 Selector1,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@732c7887
+2014-05-13 23:51:10 DEBUG nio:280 - Starting Thread[qtp2130206675-10 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@6c9d2223
+2014-05-13 23:51:10 INFO  AbstractConnector:333 - Started SelectChannelConnector@0.0.0.0:3000
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED SelectChannelConnector@0.0.0.0:3000
+2014-05-13 23:51:10 DEBUG AbstractLifeCycle:167 - STARTED org.eclipse.jetty.server.Server@46d8dc2e
+2014-05-13 23:51:10 DEBUG nio:837 - created SCEP@58a0ee03{l(/0:0:0:0:0:0:0:1%0:64251)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@2d6a346a,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2014-05-13 23:51:10 DEBUG nio:837 - created SCEP@2843d653{l(/0:0:0:0:0:0:0:1%0:64250)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@fdfacc4,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2014-05-13 23:51:10 DEBUG HttpParser:277 - filled 0/0
+2014-05-13 23:51:10 DEBUG HttpParser:277 - filled 0/0
+2014-05-13 23:51:10 DEBUG HttpParser:277 - filled 351/351
+2014-05-13 23:51:10 DEBUG Server:344 - REQUEST / on AsyncHttpConnection@fdfacc4,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=14,c=0},r=1
+2014-05-13 23:51:10 DEBUG Server:346 - RESPONSE /  200
+2014-05-13 23:51:10 DEBUG HttpParser:277 - filled 0/0
+2014-05-13 23:51:20 DEBUG ChannelEndPoint:113 - ishut SCEP@58a0ee03{l(/0:0:0:0:0:0:0:1%0:64251)<->r(/0:0:0:0:0:0:0:1%0:3000),d=true,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2d6a346a,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2014-05-13 23:51:20 DEBUG ChannelEndPoint:128 - java.net.SocketException: Socket is not connected
+2014-05-13 23:51:20 DEBUG HttpParser:277 - filled -1/0
+2014-05-13 23:51:20 DEBUG ChannelEndPoint:204 - close SCEP@58a0ee03{l(/0:0:0:0:0:0:0:1%0:64251)<->r(/0:0:0:0:0:0:0:1%0:3000),d=true,open=true,ishut=true,oshut=false,rb=false,wb=false,w=true,i=1r}-{AsyncHttpConnection@2d6a346a,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+2014-05-13 23:51:20 DEBUG nio:846 - destroyEndPoint SCEP@58a0ee03{l(null)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=false,ishut=true,oshut=true,rb=false,wb=false,w=true,i=1!}-{AsyncHttpConnection@2d6a346a,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0}
+2014-05-13 23:51:20 DEBUG AbstractHttpConnection:664 - closed AsyncHttpConnection@2d6a346a,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=0,l=0,c=0},r=0
+2014-05-14 00:02:45 DEBUG log:157 - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2014-05-14 00:02:48 TRACE handler:272 - Starting App....
+2014-05-14 00:02:48 TRACE handler:272 - Loading configs..
+2014-05-14 00:02:48 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@163f47e + SelectChannelConnector@0.0.0.0:3000 as connector
+2014-05-14 00:02:48 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@163f47e + ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@5d1ddcf4 as handler
+2014-05-14 00:02:48 DEBUG Container:201 - Container org.eclipse.jetty.server.Server@163f47e + qtp530049924{8<=0<=0/50,-1} as threadpool
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting org.eclipse.jetty.server.Server@163f47e
+2014-05-14 00:02:48 INFO  Server:252 - jetty-7.6.1.v20120215
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@5d1ddcf4
+2014-05-14 00:02:48 DEBUG AbstractHandler:52 - starting ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@5d1ddcf4
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED ring.adapter.jetty.proxy$org.eclipse.jetty.server.handler.AbstractHandler$0@5d1ddcf4
+2014-05-14 00:02:48 DEBUG AbstractHandler:52 - starting org.eclipse.jetty.server.Server@163f47e
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting qtp530049924{8<=0<=0/50,-1}
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED qtp530049924{8<=7<=8/50,0}
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting SelectChannelConnector@0.0.0.0:3000
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting null/null
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED PooledBuffers [0/1024@6144,0/1024@16384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:174 - starting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@35371c0c
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@35371c0c
+2014-05-14 00:02:48 DEBUG nio:280 - Starting Thread[qtp530049924-11 Selector1,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@8611b5c
+2014-05-14 00:02:48 DEBUG nio:280 - Starting Thread[qtp530049924-10 Selector0,5,main] on org.eclipse.jetty.io.nio.SelectorManager$1@1f4b3950
+2014-05-14 00:02:48 INFO  AbstractConnector:333 - Started SelectChannelConnector@0.0.0.0:3000
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED SelectChannelConnector@0.0.0.0:3000
+2014-05-14 00:02:48 DEBUG AbstractLifeCycle:167 - STARTED org.eclipse.jetty.server.Server@163f47e
+2014-05-14 00:02:48 DEBUG nio:837 - created SCEP@678c862e{l(/0:0:0:0:0:0:0:1%0:64351)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@3abd6b1e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2014-05-14 00:02:48 DEBUG nio:837 - created SCEP@2964a05d{l(/0:0:0:0:0:0:0:1%0:64352)<->r(/0:0:0:0:0:0:0:1%0:3000),d=false,open=true,ishut=false,oshut=false,rb=false,wb=false,w=true,i=0}-{AsyncHttpConnection@53cc48dd,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-14,l=0,c=0},r=0}
+2014-05-14 00:02:48 DEBUG HttpParser:277 - filled 0/0
+2014-05-14 00:02:48 DEBUG HttpParser:277 - filled 0/0
+2014-05-14 00:02:48 DEBUG HttpParser:277 - filled 351/351
+2014-05-14 00:02:48 DEBUG Server:344 - REQUEST / on AsyncHttpConnection@3abd6b1e,g=HttpGenerator{s=0,h=-1,b=-1,c=-1},p=HttpParser{s=-5,l=14,c=0},r=1
+2014-05-14 00:02:48 DEBUG Server:346 - RESPONSE /  200
+2014-05-14 00:02:48 DEBUG HttpParser:277 - filled 0/0
